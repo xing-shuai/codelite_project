@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
     vtkSmartPointer<vtkImageData> imageData = vtkSmartPointer<vtkImageData>::New();
 
     vtkSmartPointer<vtkSLCReader> reader = vtkSmartPointer<vtkSLCReader>::New();
-    reader->SetFileName("/home/shuai/Documents/vm_foot.slc");
+    reader->SetFileName("../resource/vm_foot.slc");
     reader->Update();
     imageData->ShallowCopy(reader->GetOutput());
 
