@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="VTK_demo" Version="10.0.0" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="foot.cxx"/>
+    <File Name="demo.cxx"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="/usr/local/include/vtk-8.2"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib"/>
+        <Library Value="vtkChartsCore-8.2"/>
+        <Library Value="vtkCommonColor-8.2"/>
+        <Library Value="vtkCommonComputationalGeometry-8.2"/>
+        <Library Value="vtkCommonCore-8.2"/>
+        <Library Value="vtkCommonDataModel-8.2"/>
+        <Library Value="vtkCommonExecutionModel-8.2"/>
+        <Library Value="vtkCommonMath-8.2"/>
+        <Library Value="vtkCommonMisc-8.2"/>
+        <Library Value="vtkCommonSystem-8.2"/>
+        <Library Value="vtkCommonTransforms-8.2"/>
+        <Library Value="vtkDICOMParser-8.2"/>
+        <Library Value="vtkDomainsChemistry-8.2"/>
+        <Library Value="vtkDomainsChemistryOpenGL2-8.2"/>
+        <Library Value="vtkexpat-8.2"/>
+        <Library Value="vtkFiltersAMR-8.2"/>
+        <Library Value="vtkFiltersCore-8.2"/>
+        <Library Value="vtkFiltersExtraction-8.2"/>
+        <Library Value="vtkFiltersFlowPaths-8.2"/>
+        <Library Value="vtkFiltersGeneral-8.2"/>
+        <Library Value="vtkFiltersGeneric-8.2"/>
+        <Library Value="vtkFiltersGeometry-8.2"/>
+        <Library Value="vtkFiltersHybrid-8.2"/>
+        <Library Value="vtkFiltersHyperTree-8.2"/>
+        <Library Value="vtkFiltersImaging-8.2"/>
+        <Library Value="vtkFiltersModeling-8.2"/>
+        <Library Value="vtkFiltersParallel-8.2"/>
+        <Library Value="vtkFiltersParallelImaging-8.2"/>
+        <Library Value="vtkFiltersPoints-8.2"/>
+        <Library Value="vtkFiltersProgrammable-8.2"/>
+        <Library Value="vtkFiltersSelection-8.2"/>
+        <Library Value="vtkFiltersSMP-8.2"/>
+        <Library Value="vtkFiltersSources-8.2"/>
+        <Library Value="vtkFiltersStatistics-8.2"/>
+        <Library Value="vtkFiltersTexture-8.2"/>
+        <Library Value="vtkFiltersTopology-8.2"/>
+        <Library Value="vtkFiltersVerdict-8.2"/>
+        <Library Value="vtkfreetype-8.2"/>
+        <Library Value="vtkGeovisCore-8.2"/>
+        <Library Value="vtkgl2ps-8.2"/>
+        <Library Value="vtkglew-8.2"/>
+        <Library Value="vtkhdf5-8.2"/>
+        <Library Value="vtkhdf5_hl-8.2"/>
+        <Library Value="vtkImagingColor-8.2"/>
+        <Library Value="vtkImagingCore-8.2"/>
+        <Library Value="vtkImagingFourier-8.2"/>
+        <Library Value="vtkImagingGeneral-8.2"/>
+        <Library Value="vtkImagingHybrid-8.2"/>
+        <Library Value="vtkImagingMath-8.2"/>
+        <Library Value="vtkImagingMorphological-8.2"/>
+        <Library Value="vtkImagingSources-8.2"/>
+        <Library Value="vtkImagingStatistics-8.2"/>
+        <Library Value="vtkImagingStencil-8.2"/>
+        <Library Value="vtkInfovisCore-8.2"/>
+        <Library Value="vtkInfovisLayout-8.2"/>
+        <Library Value="vtkInteractionImage-8.2"/>
+        <Library Value="vtkInteractionStyle-8.2"/>
+        <Library Value="vtkInteractionWidgets-8.2"/>
+        <Library Value="vtkIOAMR-8.2"/>
+        <Library Value="vtkIOCore-8.2"/>
+        <Library Value="vtkIOEnSight-8.2"/>
+        <Library Value="vtkIOExodus-8.2"/>
+        <Library Value="vtkIOExport-8.2"/>
+        <Library Value="vtkIOExportOpenGL2-8.2"/>
+        <Library Value="vtkIOGeometry-8.2"/>
+        <Library Value="vtkIOImage-8.2"/>
+        <Library Value="vtkIOImport-8.2"/>
+        <Library Value="vtkIOInfovis-8.2"/>
+        <Library Value="vtkIOLegacy-8.2"/>
+        <Library Value="vtkIOLSDyna-8.2"/>
+        <Library Value="vtkIOMINC-8.2"/>
+        <Library Value="vtkIOMovie-8.2"/>
+        <Library Value="vtkIONetCDF-8.2"/>
+        <Library Value="vtkIOParallel-8.2"/>
+        <Library Value="vtkIOParallelXML-8.2"/>
+        <Library Value="vtkIOPLY-8.2"/>
+        <Library Value="vtkIOSQL-8.2"/>
+        <Library Value="vtkIOTecplotTable-8.2"/>
+        <Library Value="vtkIOVideo-8.2"/>
+        <Library Value="vtkIOXML-8.2"/>
+        <Library Value="vtkIOXMLParser-8.2"/>
+        <Library Value="vtkjpeg-8.2"/>
+        <Library Value="vtkjsoncpp-8.2"/>
+        <Library Value="vtklibharu-8.2"/>
+        <Library Value="vtklibxml2-8.2"/>
+        <Library Value="vtklz4-8.2"/>
+        <Library Value="vtkmetaio-8.2"/>
+        <Library Value="vtkNetCDF-8.2"/>
+        <Library Value="vtkParallelCore-8.2"/>
+        <Library Value="vtkpng-8.2"/>
+        <Library Value="vtkRenderingAnnotation-8.2"/>
+        <Library Value="vtkRenderingContext2D-8.2"/>
+        <Library Value="vtkRenderingContextOpenGL2-8.2"/>
+        <Library Value="vtkRenderingCore-8.2"/>
+        <Library Value="vtkRenderingFreeType-8.2"/>
+        <Library Value="vtkRenderingGL2PSOpenGL2-8.2"/>
+        <Library Value="vtkRenderingImage-8.2"/>
+        <Library Value="vtkRenderingLabel-8.2"/>
+        <Library Value="vtkRenderingLOD-8.2"/>
+        <Library Value="vtkRenderingOpenGL2-8.2"/>
+        <Library Value="vtkRenderingVolume-8.2"/>
+        <Library Value="vtkRenderingVolumeOpenGL2-8.2"/>
+        <Library Value="vtksqlite-8.2"/>
+        <Library Value="vtksys-8.2"/>
+        <Library Value="vtktiff-8.2"/>
+        <Library Value="vtkverdict-8.2"/>
+        <Library Value="vtkViewsContext2D-8.2"/>
+        <Library Value="vtkViewsCore-8.2"/>
+        <Library Value="vtkViewsInfovis-8.2"/>
+        <Library Value="vtkzlib-8.2"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
