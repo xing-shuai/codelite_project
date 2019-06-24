@@ -3,6 +3,10 @@
   "directory": "/home/shuai/code/c++/codelite/VTK_demo",
   "command": "clang  -c /home/shuai/code/c++/codelite/VTK_demo/demo.cxx -o /home/shuai/code/c++/codelite/VTK_demo/demo.cxx.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I/usr/local/include/vtk-8.2  -g  -O0  -Wall"
  }, {
+  "file": "/home/shuai/code/c++/codelite/VTK_demo/aaaa.cpp",
+  "directory": "/home/shuai/code/c++/codelite/VTK_demo",
+  "command": "clang  -c /home/shuai/code/c++/codelite/VTK_demo/aaaa.cpp -o /home/shuai/code/c++/codelite/VTK_demo/aaaa.cpp.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I/usr/local/include/vtk-8.2  -g  -O0  -Wall"
+ }, {
   "file": "/home/shuai/code/c++/codelite/VTK_demo/foot.cxx",
   "directory": "/home/shuai/code/c++/codelite/VTK_demo",
   "command": "clang  -c /home/shuai/code/c++/codelite/VTK_demo/foot.cxx -o /home/shuai/code/c++/codelite/VTK_demo/foot.cxx.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I/usr/local/include/vtk-8.2  -g  -O0  -Wall"
